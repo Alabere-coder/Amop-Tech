@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-
+import Slider from './components/Slider/Slider'
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/home/Home';
@@ -9,11 +9,14 @@ import Community from './pages/community/Community';
 import Company from './pages/company/Company';
 import Services from './pages/services/Services';
 import Contact from './pages/contact/Contact';
+import Pricelist from './pages/pricelist/Pricelist'
 
 function App() {
   return (
+
     <div className='App'>
       <Navbar />
+      <Slider />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
@@ -21,7 +24,8 @@ function App() {
         <Route exact path="/community" element={<Community />} />
         <Route exact path="/company" element={<Company />} />
         <Route exact path="/services" element={<Services />} />
-        <Route exact path="contact" element={<Contact />} />
+        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/pricelist" element={<Pricelist />} />
       </Routes>
     </div>
     // <BrowserRouter>
