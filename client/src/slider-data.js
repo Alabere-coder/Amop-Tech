@@ -1,7 +1,7 @@
 export const sliderData = [
     {
         image: "https://i.ibb.co/cJzzLnr/Slide1.jpg",
-        heading: "Slide One",
+        heading: "Welcome to AmopTech General Website !!!",
         desc: "This is the description of slide one Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
     },
     {
@@ -16,12 +16,12 @@ export const sliderData = [
     },
     {
         image: "https://i.ibb.co/bz3sBSy/slide4.jpg",
-        heading: "Slide Three",
+        heading: "Slide Four",
         desc: "This is the description of slide three Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
     },
     {
         image: "https://i.ibb.co/Dg1353V/slide5.jpg",
-        heading: "Slide Three",
+        heading: "Slide Five",
         desc: "This is the description of slide three Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
     },
 ];

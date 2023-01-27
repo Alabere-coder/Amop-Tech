@@ -11,8 +11,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 3rem;
-    width: 7rem;
+    /* height: 3rem;
+    width: 7rem; */
     color: #1089da;
     text-decoration: none;
     
@@ -23,7 +23,7 @@
 }
 .navbar {
     position: relative;
-    top: 12rem;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,7 +31,7 @@
     z-index: 1;
 }
 .navbar h1 {
-    text-align: center;
+    padding-left: 40px;
 }
 .links {
     font-size: 20px;

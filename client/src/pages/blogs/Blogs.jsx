@@ -1,9 +1,16 @@
-import React from 'react'
+import Navbarr from './Navbarr';
+
+import './blogs.css'
+
 
 const Blogs = () => {
-  return (
-    <div>Blogs</div>
-  )
+    return (
+        <div className="App">
+            <Navbarr />
+        </div>
+        
+    );
 }
 
-export default Blogs
+export default Blogs;
+

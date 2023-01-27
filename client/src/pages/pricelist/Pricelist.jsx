@@ -15,8 +15,9 @@ const Pricelist = () => {
             summary guide for the most common repairs.</p>
           <div className="list__container">
             <div className="list__wrapper">
-              <Table striped bordered hover variant="dark" >
-                <thead>
+              <div className="divider"></div>
+              <Table bordered hover>
+                <thead className="mb-3">
                   <tr> 
                     <th><h6>DEVICE</h6></th>
                     <th><h6>GLASS / TP</h6></th>
@@ -24,37 +25,41 @@ const Pricelist = () => {
                   </tr>
                 </thead>
                 <tbody>
+                  <div className="divider"></div>
                   <tr>
                     <td>Tecno</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Tecno</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Tecno</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Tecno</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Tecno</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                 </tbody>
+                
               </Table>
             </div>
             <div className="list__wrapper">
-              <Table striped bordered hover variant="dark">
+              <div className="divider"></div>
+              <Table bordered hover>
                 <thead>
+                  
                   <tr>
                     <th><h6>DEVICE</h6></th>
                     <th><h6>GLASS / TP</h6></th>
@@ -64,28 +69,28 @@ const Pricelist = () => {
                 <tbody>
                   <tr>
                     <td>Itel</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Itel</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Itel</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Itel</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Itel</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                 </tbody>
               </Table>
@@ -93,7 +98,8 @@ const Pricelist = () => {
           </div>
           <div className="list__container">
             <div className="list__wrapper">
-              <Table striped bordered hover variant="dark" >
+              <div className="divider"></div>
+              <Table bordered hover>
                 <thead>
                   <tr> 
                     <th><h6>DEVICE</h6></th>
@@ -103,35 +109,36 @@ const Pricelist = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Tecno</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td>Infinix</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
-                    <td>Tecno</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td>Infinix</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
-                    <td>Tecno</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td>Infinix</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
-                    <td>Tecno</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td>Infinix</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
-                    <td>Tecno</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td>Infinix</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                 </tbody>
               </Table>
             </div>
             <div className="list__wrapper">
-              <Table striped bordered hover variant="dark">
+              <div className="divider"></div>
+              <Table bordered hover>
                 <thead>
                   <tr>
                     <th><h6>DEVICE</h6></th>
@@ -142,34 +149,36 @@ const Pricelist = () => {
                 <tbody>
                   <tr>
                     <td>Itel</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Itel</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Itel</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Itel</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Itel</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                 </tbody>
               </Table>
             </div>
-            <div className="list__wrapper">
-              <Table striped bordered hover variant="dark">
+          </div>
+          <div className="list__wrapper2">
+            <div className="divider"></div>
+              <Table bordered hover striped="columns">
                 <thead>
                   <tr>
                     <th><h6>ADDITIONAL SERVICES</h6></th>
@@ -182,43 +191,56 @@ const Pricelist = () => {
                 <tbody>
                   <tr>
                     <td>Battery Replacement</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Diagnostic Services</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Liquid Damage</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Camera Replacement</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Charging Port</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>MIC / Mouth-Piece</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                   <tr>
                     <td>Down Panel</td>
-                    <td>#2500</td>
-                    <td>#9000</td>
+                    <td><h6 className="price">#2500</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
+                    <td><h6 className="price">#9000</h6></td>
                   </tr>
                 </tbody>
               </Table>
             </div>
-          </div>
         </div>
       </div>
     </main>

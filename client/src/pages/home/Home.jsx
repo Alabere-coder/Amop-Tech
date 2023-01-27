@@ -1,11 +1,13 @@
-
+import './home.css'
+// import "../../components/Slider/Slider.scss";
+import Slider from '../../components/Slider/Slider'
 
 
 const Home = () => {
   return (
-  <div>
-    
-    <h1>THIS IS THE HOME PAGE</h1>
+  <div className='home__container'>
+    <h1>Welcome to Amoptech General Website !!!</h1>
+    <Slider />
   </div>
   );
 }
